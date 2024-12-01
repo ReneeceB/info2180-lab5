@@ -1,0 +1,136 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00bbff; /* Light blue background */
+    color: #ff66b2; /* Pink text color */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text globally */
+}
+
+/* Header style */
+h1, h2 {
+    text-align: center;
+    color: #ff66b2; /* Pink header text */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Style for the data tables */
+.data-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for table */
+    border: 2px solid #ff66b2; /* Pink border for table */
+    border-radius: 10px;
+}
+
+.data-table thead {
+    background-color: #ff66b2; /* Pink header background */
+    color: white;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ff66b2; /* Pink borders around cells */
+}
+
+.data-table th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.data-table td {
+    font-size: 16px;
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Search container styling */
+.search-container {
+    display: flex;
+    flex-direction: column; /* Align elements vertically */
+    align-items: center; /* Center elements horizontally */
+    gap: 15px; /* Space between elements */
+    margin-top: 40px; /* Adds some spacing above */
+    padding: 20px; /* Padding inside the container */
+    background-color: #fff0f5; /* Light pink background */
+    border: 2px solid #ff66b2; /* Pink border around container */
+    border-radius: 15px; /* Rounded corners for smooth edges */
+    width: 100%; /* Full width of the container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Label styling */
+.search-container label {
+    font-size: 18px; /* Font size for label */
+    color: #ff66b2; /* Pink color for the label */
+    font-weight: bold;
+}
+
+/* Input field within the search container */
+.search-container input[type="search"] {
+    padding: 15px 20px; /* Bigger padding for input field */
+    border: 2px solid #ff66b2; /* Pink border */
+    border-radius: 10px;
+    background-color: #fff0f5; /* Light pink background */
+    color: #ff66b2;
+    font-size: 20px; /* Larger font size */
+    width: 100%; /* Full width of the container */
+}
+
+/* Focused input field styling */
+.search-container input[type="search"]:focus {
+    outline: none;
+    border-color: #ff3385; /* Darker pink when focused */
+}
+
+/* Button styling */
+.search-container button {
+    width: 200px; /* Uniform button size */
+    padding: 12px;
+    font-size: 18px; /* Larger text on buttons */
+    border-radius: 8px; /* Rounded edges */
+    background-color: #ff66b2; /* Pink background */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+}
+
+/* Buttons */
+button {
+    display: block; /* Stacks buttons below the input */
+    background-color: #ff66b2; /* Pink button background */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px auto; /* Centers buttons below input */
+    width: 200px; /* Wider buttons */
+}
+
+button:hover {
+    background-color: #ff3385; /* Darker pink on hover */
+}
+
+/* Image styling for centered and properly spaced icon */
+h1 img {
+    display: block;
+    margin: 0 auto 20px; /* Centers the image and adds more space below it */
+    width: 600px;  /* 4x larger than original 150px */
+    height: auto;  /* Keeps the aspect ratio intact */
+}
